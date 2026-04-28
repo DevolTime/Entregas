@@ -5,20 +5,20 @@ async function getProducts() {
     try {
         const response = await fetch(API);
         const data = await response.json();
-        console.log(data)
+        
+
+        let total = 0;
+        for (const product of data.data) {
+            total += product.price;
+        }
+
+        console.log("Total: " + total);
+
+
     } catch (error) {
         console.error("Error al conectarse con la fuente")
     }
 }
 
-
-function total(price) {
-    let total = 0;
-    
-    for (let i = 0; i < price.length; i++){
-        total+= price[i];
-    }
-    return total
-}
 
 getProducts();
