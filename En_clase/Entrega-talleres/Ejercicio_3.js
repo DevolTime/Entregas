@@ -1,4 +1,4 @@
-// Encontrar el número mayor
+// Contar elementos pares
 
 let num = [1,2,3,4,8,9,10,5]
 let pares = [];
