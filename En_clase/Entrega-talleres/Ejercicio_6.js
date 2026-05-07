@@ -1,4 +1,4 @@
-// Calcular promedio de notas:
+// Calcular promedio de notas
 
 const estudiantes = [
     {
@@ -44,7 +44,7 @@ const estudiantes = [
     {
         nombre: "Andrés",
         apellido: "Castro",
-        notas: [2.9, 3.1, 3.0, 2.8]
+        notas: [2.9, 3.1, 3.0, 2.8,0]
     },
     {
         nombre: "Camila",
@@ -75,3 +75,5 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 
 console.log(promedios);
+
+export { promedios, estudiantes };

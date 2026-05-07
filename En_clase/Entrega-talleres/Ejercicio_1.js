@@ -1,6 +1,6 @@
 // Sumar elementos de un array
 
-let numeros = [1, 2, 3];
+let numeros = [1, 2, 3, 4];
 let num = 0;
 
 for (let i = 0; i < numeros.length; i++) {
