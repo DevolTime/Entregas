@@ -1,5 +1,7 @@
 // Calcular promedio de notas
 
+import { aprobados, reprobados, estudiantes } from "./Ejercicio_7.js";
+
 const estudiantes = [
     {
         nombre: "Juan",
@@ -76,4 +78,4 @@ for (let i = 0; i < estudiantes.length; i++) {
 
 console.log(promedios);
 
-export { promedios, estudiantes };
+export { promedios, estudiantes }
